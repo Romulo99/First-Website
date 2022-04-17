@@ -1,0 +1,136 @@
+/* css do cabeçalho */
+header {
+  background-color: #0a0a0a;
+}
+
+.cabeçalho {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  top: 70px;
+  position: absolute;
+  right: 100px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  transition: 0.5ms all;
+}
+
+nav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Css do conteudo*/
+.principal,
+.final,
+.formulario {
+  padding: 3em 3em;
+  background-color: #121212;
+  margin: 0 auto;
+}
+
+.meio {
+  background: linear-gradient(#121212 50%, rgb(75, 75, 75));
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 1em;
+  color: white;
+}
+
+.notebook {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 20%;
+}
+.conteudo-principal {
+  margin: 0 0 3em;
+}
+
+.principal p,
+.final p {
+  margin: 0 0 1em;
+  font-size: 17px;
+  color: white;
+}
+
+.plano {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+.final {
+  background: rgb(75, 75, 75);
+}
+
+.tempo {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.tempo li {
+  display: inline-block;
+  width: 30%;
+  margin: 1% 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  transition: 0.5ms all;
+}
+
+.tempo li:hover {
+  border-color: darkblue;
+}
+
+.tempo li:hover h2 {
+  font-size: 35px;
+}
+
+.tempo li h2 {
+  font-size: 30px;
+  color: white;
+}
+/* Css do rotape*/
+footer {
+  background: url("footer.png");
+  text-align: center;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+.copyright {
+  color: white;
+  font-size: 15px;
+}
+
+.img-footer {
+  width: 10%;
+}
+
+.contatos {
+  top: 30px;
+  position: absolute;
+  right: 0px;
+}
+
+.link {
+  display: block;
+}
